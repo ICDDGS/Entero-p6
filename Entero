@@ -1,0 +1,7 @@
+#include<stdio.h>
+main(){
+float a;
+printf("Ingrese un numero entero\n)");
+scanf("%f",&a);
+printf("\nEl numero ingresado es %d\t",a);
+}
