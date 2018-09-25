@@ -1,0 +1,8 @@
+#include<stdio.h>
+main(){
+char a;
+printf("Ingrese un caracter real\n)");
+setbuf(stdin,NULL);
+scanf("%c",&a);
+printf("\nEl caracter ingresado es %c\t",a);
+}
