@@ -1,0 +1,14 @@
+#include<stdio.h>
+main(){
+int e;
+float r;
+char c;
+printf("Ingrese un numero entero\n)");
+scanf("%d",&e);
+printf("Ingrese un numero real\n)");
+scanf("%f",&r);
+printf("Ingrese un caracter real\n)");
+setbuf(stdin,NULL);
+scanf("%c",&c);
+printf("Real: %f, Entero:%d, Caracter:%c\t",r,e,c);
+}
